@@ -30,11 +30,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 
-@Preview
+
 @Composable
 
-fun LoginScreen(){
+fun LoginScreen(navController: NavController){
     Scaffold { innerPadding ->
         Column (modifier = Modifier
             .padding(innerPadding)
@@ -104,7 +105,9 @@ fun LoginScreen(){
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            TextButton(onClick = {}) {
+            TextButton(onClick = {
+                navController.navigate("register")
+            }) {
                 Text("¿No tienes cuenta? Registrate",
                     color = Color(0xFFFF9900),
                 )
