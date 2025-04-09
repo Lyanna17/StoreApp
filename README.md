@@ -1,7 +1,7 @@
 ## Store App
 
 <div align = "center">
-  <img src="img/yo.JPG" width="200" height="200" />
+  <img src="./img/yo.JPG" width="200" height="200" />
 
 </div>
 
