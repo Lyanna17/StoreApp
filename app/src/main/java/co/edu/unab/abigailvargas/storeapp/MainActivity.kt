@@ -20,6 +20,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             StoreAppTheme {
 
+                LoginScreen()
+                RegisterScreen()
+
             }
         }
     }
