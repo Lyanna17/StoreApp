@@ -89,7 +89,9 @@ fun LoginScreen(navController: NavController){
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            Button(onClick = {},
+            Button(onClick = {
+                navController.navigate("home")
+            },
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(50.dp),

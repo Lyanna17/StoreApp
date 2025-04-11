@@ -62,4 +62,8 @@ dependencies {
     //navegación entre screens
 
     implementation(libs.androidx.navigation.compose)
+
+    //cargar imagenes de internet
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
 }
