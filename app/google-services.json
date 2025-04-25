@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597996591646",
+    "project_id": "storeapp-d3ba6",
+    "storage_bucket": "storeapp-d3ba6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597996591646:android:e8c6d73b834761dbd0ec0f",
+        "android_client_info": {
+          "package_name": "co.edu.unab.abigailvargas.storeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC18K2SF4xJEG3w-UkbJitPUbFHRf-3zz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
